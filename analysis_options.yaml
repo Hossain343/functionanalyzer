@@ -1,0 +1,4 @@
+# Minimal analyzer config (no extra lint package needed).
+analyzer:
+  language:
+    strict-casts: false
