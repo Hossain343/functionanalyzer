@@ -1,18 +1,20 @@
 name: function_analyzer
-description: FunctionAnalyzer - solve, parse and visualize high-school function problems (Wear OS).
+description: High school function parser, solver, and Wear OS visualizer.
 publish_to: 'none'
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: '>=3.3.0 <4.0.0'
 
 dependencies:
   flutter:
     sdk: flutter
+  math_expressions: ^2.7.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^4.0.0
 
 flutter:
   uses-material-design: true
