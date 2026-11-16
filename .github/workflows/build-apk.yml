@@ -29,6 +29,9 @@ jobs:
       # Checks the exact textbook examples (g(-2)=22, a=-1, ranges, notations ...)
       - run: flutter test
 
+      # ساخت خودکار پوشه و فایل‌های پلتفرم اندروید
+      - run: flutter create . --platforms=android
+
       - run: flutter build apk --release
 
       - uses: actions/upload-artifact@v4
